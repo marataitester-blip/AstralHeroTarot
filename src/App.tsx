@@ -4,11 +4,10 @@ import MainPage from './pages/MainPage'
 import Readings from './pages/Readings'
 import Encyclopedia from './pages/Encyclopedia'
 import Header from './components/Header'
-import './styles/vars.css'
-import './styles/global.css'
 
 export default function App() {
   const { t } = useTranslation('common')
+  
   return (
     <div className="app">
       <Header />
